@@ -1,0 +1,16 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Die {
+- faceValue: int
++ roll():
+}
+
+class Game {
+
+}
+
+Game  --  "2..2" Die
+
+@enduml
